@@ -13,7 +13,7 @@ How to share an HDInsight Hive Metastore with Azure Databricks
 9. Terminate your Databricks cluster
 10. Restart your cluster
 11. In a SQL notebook you can run SHOW TABLES (you should see the sample table from HDInsight)
-    * NOTE: You will not be able to select the data from this table.  The table is probably pointing to blob or ADLS storage.  You should create all your tables in HDI/Databricks as EXTERNAL and makes sure you LOCATION property is set to blob or ADLS.  You Databricks cluster will also need to be authorize to access ADLS or blob.
+    * NOTE: You will not be able to select the data from this table.  The table is probably pointing to blob or ADLS storage.  You should create all your tables in HDI/Databricks as EXTERNAL and makes sure you LOCATION property is set to blob or ADLS.  You Databricks cluster will also need to be authorized to access ADLS or blob.
 
 ### Step 1
 ```
